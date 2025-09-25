@@ -1,0 +1,15 @@
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\bin\Debug\net8.0\Exercise3_6.exe
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\bin\Debug\net8.0\Exercise3_6.deps.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\bin\Debug\net8.0\Exercise3_6.runtimeconfig.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\bin\Debug\net8.0\Exercise3_6.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\bin\Debug\net8.0\Exercise3_6.pdb
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.AssemblyInfoInputs.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.AssemblyInfo.cs
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.csproj.CoreCompileInputs.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.sourcelink.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\refint\Exercise3_6.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.pdb
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\Exercise3_6.genruntimeconfig.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab3\Exercise3_6\obj\Debug\net8.0\ref\Exercise3_6.dll
