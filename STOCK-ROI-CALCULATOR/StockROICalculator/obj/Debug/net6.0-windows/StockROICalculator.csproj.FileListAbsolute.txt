@@ -1,0 +1,14 @@
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.AssemblyInfoInputs.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.AssemblyInfo.cs
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.csproj.CoreCompileInputs.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\bin\Debug\net6.0-windows\StockROICalculator.exe
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\bin\Debug\net6.0-windows\StockROICalculator.deps.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\bin\Debug\net6.0-windows\StockROICalculator.runtimeconfig.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\bin\Debug\net6.0-windows\StockROICalculator.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\bin\Debug\net6.0-windows\StockROICalculator.pdb
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\refint\StockROICalculator.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.pdb
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\StockROICalculator.genruntimeconfig.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\sc\code\assignment01\StockROICalculator\obj\Debug\net6.0-windows\ref\StockROICalculator.dll
