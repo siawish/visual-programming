@@ -1,0 +1,15 @@
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.AssemblyInfoInputs.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.AssemblyInfo.cs
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.csproj.CoreCompileInputs.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.sourcelink.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\bin\Debug\net6.0-windows\LabExercise5.exe
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\bin\Debug\net6.0-windows\LabExercise5.deps.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\bin\Debug\net6.0-windows\LabExercise5.runtimeconfig.json
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\bin\Debug\net6.0-windows\LabExercise5.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\bin\Debug\net6.0-windows\LabExercise5.pdb
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\refint\LabExercise5.dll
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.pdb
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\LabExercise5.genruntimeconfig.cache
+C:\Users\HMMS\OneDrive - Higher Education Commission\Desktop\uni\assignments\VP-LAB\code\lab5\obj\Debug\net6.0-windows\ref\LabExercise5.dll
