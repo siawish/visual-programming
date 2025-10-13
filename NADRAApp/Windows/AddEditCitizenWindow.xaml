@@ -1,0 +1,179 @@
+<Window x:Class="NADRAApp.Windows.AddEditCitizenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Add/Edit Citizen" Height="700" Width="800"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="{Binding WindowTitle}" 
+                  FontSize="20" FontWeight="Bold" 
+                  HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Form -->
+        <ScrollViewer Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Margin="0,0,20,0">
+                    <!-- Personal Information -->
+                    <GroupBox Header="Personal Information" Margin="0,0,0,15">
+                        <Grid Margin="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                                <RowDefinition Height="35"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" Content="CNIC:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding Citizen.CNIC}" 
+                                    MaxLength="13" Margin="5"/>
+
+                            <Label Grid.Row="0" Grid.Column="2" Content="Gender:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="0" Grid.Column="3" Text="{Binding Citizen.Gender}" IsEditable="True" Margin="5">
+                                <sys:String>Male</sys:String>
+                                <sys:String>Female</sys:String>
+                                <sys:String>Other</sys:String>
+                            </ComboBox>
+
+                            <Label Grid.Row="1" Grid.Column="0" Content="First Name:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Citizen.FirstName}" Margin="5"/>
+
+                            <Label Grid.Row="1" Grid.Column="2" Content="Last Name:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="3" Text="{Binding Citizen.LastName}" Margin="5"/>
+
+                            <Label Grid.Row="2" Grid.Column="0" Content="Father Name:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Citizen.FatherName}" Margin="5"/>
+
+                            <Label Grid.Row="2" Grid.Column="2" Content="Date of Birth:" VerticalAlignment="Center"/>
+                            <DatePicker Grid.Row="2" Grid.Column="3" SelectedDate="{Binding Citizen.DateOfBirth}" Margin="5"/>
+
+                            <Label Grid.Row="3" Grid.Column="0" Content="Blood Group:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="3" Grid.Column="1" Text="{Binding Citizen.BloodGroup}" IsEditable="True" Margin="5">
+                                <sys:String>A+</sys:String>
+                                <sys:String>A-</sys:String>
+                                <sys:String>B+</sys:String>
+                                <sys:String>B-</sys:String>
+                                <sys:String>AB+</sys:String>
+                                <sys:String>AB-</sys:String>
+                                <sys:String>O+</sys:String>
+                                <sys:String>O-</sys:String>
+                            </ComboBox>
+
+                            <Label Grid.Row="3" Grid.Column="2" Content="Marital Status:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="3" Grid.Column="3" Text="{Binding Citizen.MaritalStatus}" IsEditable="True" Margin="5">
+                                <sys:String>Single</sys:String>
+                                <sys:String>Married</sys:String>
+                                <sys:String>Divorced</sys:String>
+                                <sys:String>Widowed</sys:String>
+                            </ComboBox>
+
+                            <Label Grid.Row="4" Grid.Column="0" Content="Occupation:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding Citizen.Occupation}" Margin="5"/>
+
+                            <Label Grid.Row="4" Grid.Column="2" Content="Phone:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="4" Grid.Column="3" Text="{Binding Citizen.PhoneNumber}" Margin="5"/>
+
+                            <Label Grid.Row="5" Grid.Column="0" Content="Email:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Text="{Binding Citizen.Email}" Margin="5"/>
+                        </Grid>
+                    </GroupBox>
+
+                    <!-- Address Information -->
+                    <GroupBox Header="Address Information">
+                        <Grid Margin="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="120"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="60"/>
+                                <RowDefinition Height="35"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" Content="Address:" VerticalAlignment="Top"/>
+                            <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" 
+                                    Text="{Binding Citizen.Address}" 
+                                    TextWrapping="Wrap" AcceptsReturn="True" 
+                                    Height="50" Margin="5"/>
+
+                            <Label Grid.Row="1" Grid.Column="0" Content="City:" VerticalAlignment="Center"/>
+                            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Citizen.City}" Margin="5"/>
+
+                            <Label Grid.Row="1" Grid.Column="2" Content="Province:" VerticalAlignment="Center"/>
+                            <ComboBox Grid.Row="1" Grid.Column="3" Text="{Binding Citizen.Province}" IsEditable="True" Margin="5">
+                                <sys:String>Punjab</sys:String>
+                                <sys:String>Sindh</sys:String>
+                                <sys:String>KPK</sys:String>
+                                <sys:String>Balochistan</sys:String>
+                                <sys:String>Gilgit-Baltistan</sys:String>
+                                <sys:String>AJK</sys:String>
+                                <sys:String>Islamabad</sys:String>
+                            </ComboBox>
+                        </Grid>
+                    </GroupBox>
+                </StackPanel>
+
+                <!-- Photo Section -->
+                <GroupBox Grid.Column="1" Header="Photo and Biometrics">
+                    <StackPanel Margin="10">
+                        <Border BorderBrush="Gray" BorderThickness="1" Height="150" Margin="0,0,0,10">
+                            <Image x:Name="PhotoImage" 
+                                  Stretch="UniformToFill"/>
+                        </Border>
+                        
+                        <Button Content="Upload Photo" Click="UploadPhoto_Click" Margin="0,0,0,5"/>
+                        <Button Content="Take Photo" Click="TakePhoto_Click" Margin="0,0,0,5"/>
+                        <Button Content="Clear Photo" Click="ClearPhoto_Click" Margin="0,0,0,10"/>
+                        
+                        <Border BorderBrush="Gray" BorderThickness="1" Height="100" Margin="0,0,0,10" Background="#F0F0F0">
+                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                <TextBlock Text="🔮" FontSize="24" HorizontalAlignment="Center"/>
+                                <TextBlock Text="Fingerprint Scanner" FontSize="12" HorizontalAlignment="Center" Margin="0,5,0,0"/>
+                                <TextBlock Text="Future Feature" FontSize="10" HorizontalAlignment="Center" 
+                                          Foreground="Gray" FontStyle="Italic"/>
+                            </StackPanel>
+                        </Border>
+                        
+                        <Button Content="🔮 Scan Fingerprint (Future)" Click="ScanFingerprint_Click" Margin="0,0,0,5" 
+                               Background="#9E9E9E" Foreground="White"/>
+                        <Button Content="Clear Fingerprint" Click="ClearFingerprint_Click" 
+                               Background="#9E9E9E" Foreground="White"/>
+                    </StackPanel>
+                </GroupBox>
+            </Grid>
+        </ScrollViewer>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                   HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button Content="Save" Click="Save_Click" 
+                   Width="100" Height="35" Margin="0,0,10,0"
+                   Background="#4CAF50" Foreground="White" FontWeight="Bold"/>
+            <Button Content="Cancel" Click="Cancel_Click" 
+                   Width="100" Height="35"
+                   Background="#F44336" Foreground="White" FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>
