@@ -1,0 +1,89 @@
+<Window x:Class="NADRAApp.Windows.ImageEffectsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OpenCV Image Effects Demo" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Grid.Row="0" Text="OpenCV Image Processing Effects" 
+                  FontSize="20" FontWeight="Bold" 
+                  HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Controls -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+            <Button Content="Load Image" Click="LoadImage_Click" 
+                   Width="100" Height="35" Margin="5"
+                   Background="#2196F3" Foreground="White" FontWeight="Bold"/>
+            
+            <ComboBox x:Name="EffectComboBox" Width="150" Height="35" Margin="5"
+                     SelectedIndex="0">
+                <ComboBoxItem Content="Original"/>
+                <ComboBoxItem Content="Blur"/>
+                <ComboBoxItem Content="Edge Detection"/>
+                <ComboBoxItem Content="Emboss"/>
+                <ComboBoxItem Content="Sepia"/>
+            </ComboBox>
+            
+            <Button Content="Apply Effect" Click="ApplyEffect_Click" 
+                   Width="100" Height="35" Margin="5"
+                   Background="#4CAF50" Foreground="White" FontWeight="Bold"/>
+            
+            <Button Content="Face Detection" Click="DetectFaces_Click" 
+                   Width="120" Height="35" Margin="5"
+                   Background="#FF9800" Foreground="White" FontWeight="Bold"/>
+            
+            <Button Content="Save Image" Click="SaveImage_Click" 
+                   Width="100" Height="35" Margin="5"
+                   Background="#9C27B0" Foreground="White" FontWeight="Bold"/>
+        </StackPanel>
+
+        <!-- Image Display -->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Original Image -->
+            <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="2">
+                <Grid>
+                    <TextBlock Text="Original Image" 
+                              HorizontalAlignment="Center" VerticalAlignment="Top" 
+                              Background="White" Padding="5" Margin="5"/>
+                    <Image x:Name="OriginalImage" Stretch="Uniform"/>
+                </Grid>
+            </Border>
+
+            <!-- Processed Image -->
+            <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="2">
+                <Grid>
+                    <TextBlock Text="Processed Image" 
+                              HorizontalAlignment="Center" VerticalAlignment="Top" 
+                              Background="White" Padding="5" Margin="5"/>
+                    <Image x:Name="ProcessedImage" Stretch="Uniform"/>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Status -->
+        <StatusBar Grid.Row="3" Background="#F5F5F5" Margin="0,10,0,0">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Text="Ready - Load an image to start"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <ProgressBar x:Name="ProcessingProgressBar" 
+                           Width="200" Height="16"
+                           Visibility="Collapsed"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
