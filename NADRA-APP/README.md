@@ -228,6 +228,19 @@ For technical support or questions, please refer to the documentation or contact
 
 ## Application Screenshots
 
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/3ce968cd-ce10-4eae-8d4d-bf611c126b6f" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/ea4db9dc-33da-4d46-be8a-cdb9ecf45a66" />
+
+<img width="1174" height="1037" alt="image" src="https://github.com/user-attachments/assets/6d73ed59-6f78-48ac-ae51-25314570f19e" />
+
+<img width="1178" height="898" alt="image" src="https://github.com/user-attachments/assets/c2c70e57-2d8e-4a40-899f-7086b7231e1b" />
+
+<img width="1779" height="1044" alt="image" src="https://github.com/user-attachments/assets/6fa8ad64-cf9f-4a8b-bf70-3a085449bd87" />
+
+<img width="1787" height="1040" alt="image" src="https://github.com/user-attachments/assets/10935d10-36a3-4bb9-900f-cc9c2a33b84e" />
+
+
 ### Main Interface
 - Professional header with NADRA branding
 - Real-time clock displaying current time (12-hour format with AM/PM)
