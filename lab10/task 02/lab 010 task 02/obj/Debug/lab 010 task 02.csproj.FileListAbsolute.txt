@@ -1,0 +1,13 @@
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab 010 task 02.csproj.AssemblyReference.cache
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab_010_task_02.Form1.resources
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab_010_task_02.Properties.Resources.resources
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab 010 task 02.csproj.GenerateResource.cache
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab 010 task 02.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\lab 010 task 02\bin\Debug\School.mdf
+C:\Users\Student\source\repos\lab 010 task 02\bin\Debug\School_log.ldf
+C:\Users\Student\source\repos\lab 010 task 02\bin\Debug\lab 010 task 02.exe.config
+C:\Users\Student\source\repos\lab 010 task 02\bin\Debug\lab 010 task 02.exe
+C:\Users\Student\source\repos\lab 010 task 02\bin\Debug\lab 010 task 02.pdb
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab 010 task 02.exe
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab 010 task 02.pdb
+C:\Users\Student\source\repos\lab 010 task 02\obj\Debug\lab 010 task 02.exe.config
