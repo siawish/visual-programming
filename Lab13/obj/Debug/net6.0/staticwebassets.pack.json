@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BooksMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BooksMVC.props",
+      "PackagePath": "build\\BooksMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BooksMVC.props",
+      "PackagePath": "buildMultiTargeting\\BooksMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BooksMVC.props",
+      "PackagePath": "buildTransitive\\BooksMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

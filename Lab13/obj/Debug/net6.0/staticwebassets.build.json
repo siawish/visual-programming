@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "l4Z9TH1Q/wRzwwffy5FB2+3VZYVfq/ogpRuA/wKK8C4=",
+  "Source": "BooksMVC",
+  "BasePath": "_content/BooksMVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BooksMVC\\wwwroot",
+      "Source": "BooksMVC",
+      "ContentRoot": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\",
+      "BasePath": "_content/BooksMVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\css\\site.css",
+      "SourceId": "BooksMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\",
+      "BasePath": "_content/BooksMVC",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\js\\site.js",
+      "SourceId": "BooksMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HMMS\\OneDrive - Higher Education Commission\\Desktop\\vpLab13\\wwwroot\\",
+      "BasePath": "_content/BooksMVC",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
