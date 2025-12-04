@@ -1,0 +1,57 @@
+@model BooksMVC.Models.Book
+
+@{
+    ViewData["Title"] = "Book Details";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow">
+            <div class="card-header bg-info text-white">
+                <h2 class="mb-0">
+                    <i class="bi bi-eye"></i> Book Details
+                </h2>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">
+                        <i class="bi bi-book"></i> Title
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Model.Title
+                    </dd>
+
+                    <dt class="col-sm-4">
+                        <i class="bi bi-person"></i> Author
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Model.Author
+                    </dd>
+
+                    <dt class="col-sm-4">
+                        <i class="bi bi-cash"></i> Price
+                    </dt>
+                    <dd class="col-sm-8">
+                        Rs @Model.Price.ToString("F2")
+                    </dd>
+
+                    <dt class="col-sm-4">
+                        <i class="bi bi-calendar-event"></i> Published Date
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Model.PublishedDate.ToLongDateString()
+                    </dd>
+                </dl>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Back to List
+                    </a>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Edit
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
